@@ -1,0 +1,39 @@
+{
+  "name": "@expresso/create-app",
+  "version": "1.0.0",
+  "description": "Expresso scaffolder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expresso/create-app.git"
+  },
+  "keywords": [
+    "expresso",
+    "generator",
+    "app",
+    "express",
+    "prisma"
+  ],
+  "author": "Roz <hello@roz.ninja>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/expresso/create-app/issues"
+  },
+  "homepage": "https://github.com/expresso/create-app#readme",
+  "dependencies": {
+    "cac": "^6.7.12",
+    "inquirer-search-list": "^1.2.6",
+    "sao": "^1.7.1",
+    "spdx-license-ids": "^3.0.11"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0"
+  }
+}
