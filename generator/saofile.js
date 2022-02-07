@@ -6,7 +6,7 @@ module.exports = {
       {
         name: 'projectName',
         message: 'Project name',
-        default: 'expresso-api'
+        default: '{outFolder}'
       },
       {
         name: 'projectDescription',
