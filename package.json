@@ -1,8 +1,11 @@
 {
   "name": "@expresso/create-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Expresso scaffolder",
   "main": "index.js",
+  "bin": {
+    "create-app": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
